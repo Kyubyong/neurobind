@@ -33,6 +33,9 @@ My dataset scheme follows that of [DeeperBind: Enhancing Prediction of Sequence 
   * STEP 1. Adjust hyper parameters in hyperparams.py if necessary.
   * STEP 2. Run `train.py` or download my [pretrained files](https://u42868014.dl.dropboxusercontent.com/u/42868014/neurobind/log.zip).
 
+## Training Curve
+<img src="fig/training_curve.png">
+
 ## Validation Check
   * Run `eval.py val` to find the best model.
 
