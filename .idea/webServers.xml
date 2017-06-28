@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a110dbfd-1fc5-4099-a7f4-5387a8b332aa" name="find_motifs" url="http://brain-cluster-gpu3.dakao.io">
+        <fileTransfer host="brain-cluster-gpu3.dakao.io" port="2200" privateKey="$USER_HOME$/.ssh/id_rsa_braincloud_canary" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2200" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
