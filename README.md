@@ -64,6 +64,7 @@ My dataset scheme follows that of [DeeperBind: Enhancing Prediction of Sequence 
 
 ## Results
 I got Spearman rank correlation coefficients of 0.60 and 0.70 on arrays #2 of CEH-22 and Oct-1, respectively.
+Details are available in `results\` folder.
 
 | TF | PRG | RKM | S&W | KHM | DBD | DEBD | NB (Proposed) |
 |--|--|--|--|--|--|--|--|
