@@ -3,7 +3,7 @@
 '''
 June 2017 by kyubyong park.
 kbpark.linguist@gmail.com.
-https://www.github.com/kyubyong/find_motifs.
+https://www.github.com/kyubyong/neurobind.
 '''
 
 from __future__ import print_function

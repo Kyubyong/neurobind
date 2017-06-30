@@ -3,13 +3,16 @@
 '''
 June 2017 by kyubyong park.
 kbpark.linguist@gmail.com.
-https://www.github.com/kyubyong/find_motifs
+https://www.github.com/kyubyong/neurobind
 '''
 from __future__ import print_function
-from hyperparams import Hyperparams as hp
-import tensorflow as tf
-import numpy as np
+
 import re
+
+from hyperparams import Hyperparams as hp
+import numpy as np
+import tensorflow as tf
+
 
 def load_vocab():
     vocab = "ACGT"

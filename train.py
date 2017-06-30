@@ -3,14 +3,17 @@
 '''
 June 2017 by kyubyong park.
 kbpark.linguist@gmail.com.
-https://www.github.com/kyubyong/find_motifs
+https://www.github.com/kyubyong/neurobind
 '''
 from __future__ import print_function
-from hyperparams import Hyperparams as hp
-import tensorflow as tf
-from data_load import get_batch_data, load_vocab, load_data
-from modules import *
+
 from tqdm import tqdm
+
+from data_load import get_batch_data, load_vocab, load_data
+from hyperparams import Hyperparams as hp
+from modules import *
+import tensorflow as tf
+
 
 class Graph:
     def __init__(self, is_training=True):
