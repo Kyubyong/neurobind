@@ -33,9 +33,6 @@ My dataset scheme follows that of [DeeperBind: Enhancing Prediction of Sequence 
   * STEP 1. Adjust hyper parameters in hyperparams.py if necessary.
   * STEP 2. Run `train.py` or download my [pretrained files](https://u42868014.dl.dropboxusercontent.com/u/42868014/neurobind/log.zip).
 
-## Training Curve
-<img src="fig/training_curve.png">
-
 ## Validation Check
   * Run `eval.py val` to find the best model.
 
@@ -43,11 +40,11 @@ My dataset scheme follows that of [DeeperBind: Enhancing Prediction of Sequence 
   * Run `eval.py test` to get the test results for the final model.
 
 ## Results
-I got a Spearman rank correlation coefficients of 0.59 on array #2 of CEH-22.
+I got a Spearman rank correlation coefficients of 0.60 on array #2 of CEH-22.
 
 | TF | PRG | RKM | S&W | KHM | DBD | DEBD | NB (Proposed) |
 |--|--|--|--|--|--|--|--|
-| CEH-22 | 0.28 | 0.43 | 0.28 | 0.31 | 0.40 | 0.43 | **0.59**|
+| CEH-22 | 0.28 | 0.43 | 0.28 | 0.31 | 0.40 | 0.43 | **0.60**|
 
 
 
