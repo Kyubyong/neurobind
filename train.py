@@ -48,7 +48,7 @@ class Graph:
             enc = conv1d_banks(prenet_out,
                                K=hp.encoder_num_banks,
                                num_units=hp.hidden_units//2,
-                               norm_type="hp.norm_type",
+                               norm_type=hp.norm_type,
                                is_training=is_training)  # (N, T, K * E / 2)
 
             # ### Max pooling
@@ -56,9 +56,9 @@ class Graph:
 
             ### Conv1D projections
             enc = conv1d(enc, hp.hidden_units//2, 3, scope="conv1d_1")  # (N, T, E/2)
-            enc = normalize(enc, type="hp.norm_type", is_training=is_training, activation_fn=tf.nn.relu, scope="norm1")
+            enc = normalize(enc, type=hp.norm_type, is_training=is_training, activation_fn=tf.nn.relu, scope="norm1")
             enc = conv1d(enc, hp.hidden_units//2, 3, scope="conv1d_2")  # (N, T, E/2)
-            enc = normalize(enc, type="hp.norm_type", is_training=is_training, activation_fn=tf.nn.relu, scope="norm2")
+            enc = normalize(enc, type=hp.norm_type, is_training=is_training, activation_fn=tf.nn.relu, scope="norm2")
             enc += prenet_out  # (N, T, E/2) # residual connections
 
             ### Highway Nets
