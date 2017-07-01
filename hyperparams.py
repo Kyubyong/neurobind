@@ -19,7 +19,7 @@ class Hyperparams:
     dropout_rate = 0.2
     encoder_num_banks = 16
     num_highwaynet_blocks = 4
-    norm_type = "bn" # Either "bn",  "ln", "ins", or None
+    norm_type = None # Either "bn",  "ln", "ins", or None
     loss_type = "l1" # Either "l1" or "l2"
 
     # training
