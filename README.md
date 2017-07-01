@@ -24,7 +24,7 @@ _From http://www.biosyn.com/bioinformatics.aspx_
 ## Model Description
  * Prenet: Two fully connected layers with dropouts
  * Conv1d Banks: Banks of convolution layers of width from 1 to 16
- * Position-wise convolutions
+ * Conv1d Projections
  * Highway nets
  * Final Fully Connected layer
 
