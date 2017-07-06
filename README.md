@@ -1,4 +1,4 @@
-# NeuroBind--Yet Another Model for Finding Binding Sites Using Neural Networks
+# NeuroBind--Yet Another Model Using Neural Networks for Predicting Binding Preferences of for Test DNA Sequences
 
 Finding binding sites is important because they are associated with cell processes such as transcription, translation, repair, etc. In this research I apply a deep neural network model on Protein Binding Microarrays for two popular transcription factors, i.e., CEH-22 and Oct-1. Spearman rank correlation coefficients of our models are much higher than those of any other models.    
 
