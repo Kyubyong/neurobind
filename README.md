@@ -53,7 +53,7 @@ My dataset scheme follows that of [DeeperBind: Enhancing Prediction of Sequence 
   * STEP 0. Make sure you meet the requirements.
   * STEP 1. Download PBM data of [CEH-22](http://thebrain.bwh.harvard.edu/pbms/webworks_pub/academic-license.php?file=NBT06/CEH-22/CEH-22.zip) or [Oct-1](http://thebrain.bwh.harvard.edu/pbms/webworks_pub/academic-license.php?file=NBT06/Oct-1/Oct-1.zip).
   * STEP 2. Adjust hyper parameters in `hyperparams.py` if necessary.
-  * STEP 3. Run `train.py` or download the pretrained files for [CEH-22](https://u42868014.dl.dropboxusercontent.com/u/42868014/neurobind/log.zip) or for [Oct-1](https://u42868014.dl.dropboxusercontent.com/u/42868014/neurobind/Oct-1/log.zip).
+  * STEP 3. Run `train.py` or download the pretrained files for [CEH-22](https://www.dropbox.com/s/4j2mp6r41bhln7h/log.zip?dl=0) or for [Oct-1](https://www.dropbox.com/s/u7ullzd637onw4l/log.zip?dl=0).
 
 
 ## Validation Check
